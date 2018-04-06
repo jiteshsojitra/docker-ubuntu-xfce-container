@@ -4,12 +4,8 @@
 https://hub.docker.com/r/jiteshsojitra/docker-ubuntu-xfce-container/
 
 Docker image is installed with the following components:
-* Xfce4 desktop environment
-* VNC-Server (default VNC port: 5901)
-* noVNC - HTML5 VNC client (https://github.com/kanaka/noVNC) (default http port: 6901)
-* Git
-* UBUNTU16 server
-* Xfce4 desktop
+* UBUNTU server
+* Xfce desktop
 * VNC server (default VNC port: 5901)
 * VNC client with html5 support (default http port: 6901)
 * OpenSSH
@@ -36,6 +32,9 @@ If you want to change the VNC password:
 
 Build an image from scratch:
 - docker build -t jiteshsojitra/docker-ubuntu-xfce-container
+
+### Note:
+- There are some settings in docker container which are required for building zimbra selenium (https://github.com/Zimbra/zm-selenium).
 
 ### Connection ports for controlling the UI:
 - VNC port: 5901, connect with [host-ip] and 5901 port

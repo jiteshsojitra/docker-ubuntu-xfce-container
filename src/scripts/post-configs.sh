@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euxo pipefail
 
-# Git code (for debugging inside container)
+# Git code (for debugging code inside container)
 GITHUB_BRANCH="develop"
 GITHUB_ORG_URL="https://github.com/Zimbra"
 OUTPUT_FILEPATH="$HOME/checkout-repos.sh"
