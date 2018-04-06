@@ -33,12 +33,12 @@ If you want to change the VNC password:
 Build an image from scratch:
 - docker build -t jiteshsojitra/docker-ubuntu-xfce-container
 
-### Note:
-- There are some settings in docker container which are required for building zimbra selenium (https://github.com/Zimbra/zm-selenium).
-
 ### Connection ports for controlling the UI:
 - VNC port: 5901, connect with [host-ip] and 5901 port
 - noVNC port: 6901, connect via http://[host-ip]:6901/?password=[vnc-password]
+
+### Note:
+- There are some settings in docker container which are required for building Zimbra Selenium (https://github.com/Zimbra/zm-selenium).
 
 ### Credits:
 - Tobias Schneck (https://hub.docker.com/r/consol/ubuntu-xfce-vnc)
