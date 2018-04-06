@@ -1,5 +1,8 @@
 ### Docker image with Ubuntu OS, Xfce desktop & VNC container
 
+### Docker hub image/container:
+https://hub.docker.com/r/jiteshsojitra/docker-ubuntu-xfce-container/
+
 Docker image is installed with the following components:
 * Xfce4 desktop environment
 * VNC-Server (default VNC port: 5901)
