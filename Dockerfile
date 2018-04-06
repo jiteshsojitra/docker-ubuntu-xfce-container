@@ -4,7 +4,7 @@
 # Dockerfile: https://hub.docker.com/r/jiteshsojitra/docker-ubuntu-xfce-container
 # This docker file is used to build an vnc image based on Ubuntu OS & Xfce UI.
 # Connection ports for controlling the UI:
-# VNC port:5901, connect with <host-ip> and 5901 port
+# VNC port: 5901, connect with <host-ip> and 5901 port
 # noVNC port: 6901, connect via http://<host-ip>:6901/?password=<vnc-password>
 ############################################################
 
