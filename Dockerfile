@@ -25,7 +25,7 @@ ENV HOME=/root \
 	VNC_PW=test123 \
 	VNC_VIEW_ONLY=false \
 	DEBIAN_FRONTEND=noninteractive \
-	LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
+	LANG='en_US.UTF-8' LANGUAGE='en_US:en'
 
 # Working directory
 WORKDIR $HOME

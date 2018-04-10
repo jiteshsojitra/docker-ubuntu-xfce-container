@@ -10,7 +10,6 @@ mkdir -p ~/.ivy2/cache
 ENVIRONMENT_FILE="/etc/environment"
 echo 'LANG=en_US.utf-8' >> $ENVIRONMENT_FILE
 echo 'LANGUAGE='en_US:en'' >> $ENVIRONMENT_FILE
-echo 'LC_ALL=en_US.utf-8' >> $ENVIRONMENT_FILE
 
 # Update the repository sources list
 echo "Updating the repository sources list..."

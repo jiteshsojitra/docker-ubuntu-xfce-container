@@ -2,10 +2,10 @@
 set -euxo pipefail
 
 # Git code (for debugging code inside container)
+ZIMBRA_VERSION="8.8.0_GA"
 GITHUB_BRANCH="develop"
 GITHUB_ORG_URL="https://github.com/Zimbra"
 OUTPUT_FILEPATH="$HOME/checkout-repos.sh"
-ZIMBRA_VERSION="8.8.0_GA"
 
 echo "Creating checkout repo shell script file for debugging code inside container..."
 echo "cd $HOME" >> $OUTPUT_FILEPATH
